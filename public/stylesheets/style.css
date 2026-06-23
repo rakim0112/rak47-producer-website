@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #0b0b0b;
+  color: #eee7dc;
+  font-family: Georgia, serif;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 14px 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(10, 10, 10, 0.92);
+  border-bottom: 1px solid #8b1e1e;
+  z-index: 10;
+}
+
+.brand img {
+  width: 95px;
+}
+
+.nav a {
+  color: #eee7dc;
+  text-decoration: none;
+  margin-left: 20px;
+  font-family: Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.nav a:hover {
+  color: #c43737;
+}
+
+.hero {
+  min-height: 100vh;
+  padding: 130px 7%;
+  background:
+    linear-gradient(rgba(0,0,0,.72), rgba(0,0,0,.88)),
+    url('/images/texture.jpg') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+.hero-card {
+  max-width: 720px;
+  padding: 45px;
+  background: rgba(15, 15, 15, .82);
+  border: 2px solid #c43737;
+  box-shadow: 12px 12px 0 #000;
+}
+
+.sketch {
+  background-image:
+    linear-gradient(rgba(15,15,15,.88), rgba(15,15,15,.88)),
+    url('/images/black-bg.png');
+  background-size: cover;
+}
+
+.logo-main {
+  width: 260px;
+  margin-bottom: 20px;
+}
+
+.tagline {
+  color: #c43737;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 56px;
+  line-height: 1.05;
+  letter-spacing: 1px;
+}
+
+h2 {
+  color: #c43737;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.section,
+.page {
+  padding: 130px 8% 80px;
+  min-height: 100vh;
+}
+
+.paper {
+  background:
+    linear-gradient(rgba(238,231,220,.92), rgba(238,231,220,.92)),
+    url('/images/texture.jpg') center/cover no-repeat;
+  color: #171313;
+}
+
+.texture-section {
+  background:
+    linear-gradient(rgba(10,10,10,.78), rgba(10,10,10,.86)),
+    url('/images/texture.jpg') center/cover no-repeat;
+}
+
+.dark-page {
+  background:
+    linear-gradient(rgba(0,0,0,.86), rgba(0,0,0,.92)),
+    url('/images/black-bg.png') center/cover no-repeat;
+}
+
+.secret-page {
+  background: #050505;
+  color: #d9d0c5;
+}
+
+.contact-page {
+  background:
+    linear-gradient(rgba(0,0,0,.85), rgba(0,0,0,.9)),
+    url('/images/texture.jpg') center/cover no-repeat;
+}
+
+p {
+  max-width: 850px;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.quote-box {
+  margin-top: 35px;
+  padding: 25px;
+  border-left: 5px solid #c43737;
+  background: rgba(255,255,255,.06);
+}
+
+.secret {
+  color: #0b0b0b;
+  text-decoration: none;
+}
+
+footer {
+  background: #050505;
+  text-align: center;
+  padding: 25px;
+}

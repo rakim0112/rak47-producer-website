@@ -1,0 +1,28 @@
+{
+  "name": "rak47-producer-website",
+  "version": "1.0.0",
+  "description": "Producer website for RAK47 and 47 Records",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "RAK47",
+    "producer",
+    "music",
+    "portfolio",
+    "47 Records"
+  ],
+  "author": "Rakim Spriggs",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "hbs": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
