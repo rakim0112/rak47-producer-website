@@ -22,4 +22,10 @@ router.get('/contact', (req, res) => {
   res.render('contact', { title: 'Contact RAK47' });
 });
 
+router.get('/achievements', (req, res) => {
+  res.render('achievements', {
+    title: 'RAK47 Achievements'
+  });
+});
+
 module.exports = router;
